@@ -12,11 +12,11 @@ Jupyter notebook script for batch downloading collections from earthdata. The no
 
 1.  conda create --prefix "path/folder/earthdata_env" python=3.11 -y
 
-2.   conda activate "path/folder/earthdata_env"
+2.  conda activate "path/folder/earthdata_env"
 
-3.   conda install -c conda-forge earthaccess
+3.  conda install -c conda-forge earthaccess
 
-4.  python -m pip install --upgrade geopandas shapely
+4.  python -m pip install --upgrade geopandas shapely jupyterlab ipywidgets
 
 (Move the earthaccess_download.ipynb notebook into your environment folder)
 
