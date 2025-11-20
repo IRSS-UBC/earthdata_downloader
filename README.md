@@ -8,6 +8,8 @@ Jupyter notebook script for batch downloading collections from earthdata. The no
 
 -   This script is a basic working example of the earthaccess python package. (Documentation: <https://pypi.org/project/earthaccess/>)
 
+-   A sample tiling shapefile is provided to test the script (hls_grids_sample.shp).
+
 **Full set-up:**
 
 1.  conda create --prefix "path/folder/earthdata_env" python=3.11 -y
